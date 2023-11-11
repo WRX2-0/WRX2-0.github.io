@@ -1,5 +1,5 @@
 body{
-    background-color: #e8e5bc; 
+    background-color: #C4B681;
     opacity: 0.9;
     margin:0;
 }
@@ -30,7 +30,25 @@ body{
 }
 
 h1{
+    color: #004E38;
     text-align: center;
     position: relative;
-    top: 55px; 
+    top: 10px; 
+}
+h2{
+    color: #004E38;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    font-size: 30px;
+    font-weight: bold; 
+}
+li{
+    color: #004E38;
+    text-align: left;
+    position: relative;
+    left: 150px;
+    word-spacing: 100vw;
+    margin: 25px;
 }
