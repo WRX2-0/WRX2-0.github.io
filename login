@@ -9,13 +9,14 @@
         <hi> Sacramento State </hi>
         <font size = "+2"> <hi> <br> Career Center </hi> </font>
         
-        <a href="#aboutUs">About Us</a>
-        <a href="#profile">My Profile</a>
-        <a href="#login">Log in/Sign up</a>
+        <a href="./index.html">Home page</a>
+        <a href="./aboutUs.html">About Us</a>
+        <a href="./profile.html">My Profile</a>
+        <a href="./login.html">Log in/Sign up</a>
         <a class = "active" href = "#home">Home</a>
     </div>
 
-    <h1>Welcome to the Volunteer Management Log in and Sign up System</h1>
+   <h1>Welcome to the Volunteer Management Log in and Sign up System</h1>
 
 
 </html>
