@@ -52,3 +52,39 @@ li{
     word-spacing: 100vw;
     margin: 25px;
 }
+.rectangle {
+    width: 450px;
+    height: 490px;
+    position: fixed;
+    left: 170px;
+    flex-shrink: 0;
+    border-radius: var(--Number, 0px); border: 1px solid #000; background: #004E38; 
+}
+.rectangle2 {
+    width: 450px;
+    height: 490px;
+    position: fixed;
+    right: 170px;
+    flex-shrink: 0;
+    border-radius: var(--Number, 0px); border: 1px solid #000; background: #004E38; 
+}
+h3 {
+    text-align: center;
+    color:white;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+    font-size:28px;
+}
+h4 {
+    text-align: center;
+    color:white;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+p{
+    color:white;
+    margin-right: 5%;
+    margin-left: 5%;
+}
