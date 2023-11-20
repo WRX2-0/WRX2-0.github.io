@@ -1,0 +1,44 @@
+body {
+    background-image: url(../images/login.jpg);
+    background-size:cover;
+
+}
+
+.container {
+    font-size: 10px;
+    display: flex;
+} 
+
+.form-box { 
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background: #fff;
+    padding: 50px 60px 70px; 
+    text-align: center;
+}
+
+
+.welcome_head {
+    padding: 10px 10px 10px;
+    background: #fff;
+    /* flex-wrap: wrap; */
+    left: 50%;
+    transform: translate(-50%,50%);
+    width:fit-content; 
+    /* max-width: 450px; */
+    
+}
+
+/* background-size: cover;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-start;
+background-attachment: fixed;
+
+background-color: aquamarine; */
+*/
