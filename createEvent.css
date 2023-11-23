@@ -28,3 +28,30 @@ body{
     background-color: #04AA6D;
     color: white;
 }
+
+h1{
+    color: #004E38;
+    text-align: center;
+    position: relative;
+}
+
+label,input{
+    display:block;
+    font-size: 25px;
+    color: #004E38;
+    left: 150px;
+    top: 50px;
+    position:relative;
+}
+
+#cost{
+    width: 25%;
+}
+#volunteers{
+    width: 25%;
+}
+#eventdesc{
+    left:150px;
+    top:50px;
+    position: relative
+}

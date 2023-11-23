@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <title>Test</title>
         <link rel = "stylesheet" href="createEvent.css" type = "text/css">
-        
-
+    </head>    
+    <body>
 <div class ='topnav'>
        <header class="header">
 	 <a href="https://www.csus.edu/student-life/career-center/">   
         <img src = "images/SacramentoStateLogo.png" class="Sacramento State Logo" width="64"  height="64" />
-</a>
+    </a>
         <a class = "active" href="./aboutUs.html">About Us</a>
         <a href="./profile.html">My Profile</a>
 	<a href="./calendar.html">Calender</a>
@@ -19,6 +19,61 @@
 	
     </div>
 
+    <h1>Create New Event</h1>
+    <form name="event" method="post">
+     <section>
+         <div style = "float:left;margin-right:40px;">
+            <label for ="ename">Event Name:</label>
+            <input type = "text" id = "ename">
+        </div>
 
+        <div style = "float:left; margin-right:40px;">
+            <label for ="edate">Event Date:</label>
+            <input type = "date" id = "edate">
+        </div>
 
+        <div style = "float:left; margin-right:40px;">
+            <label for = "timestart">Start Time:</label>
+            <input type = "time" id = "timestart">    
+        </div>
+
+        <div style = "float:left; margin-right:40px;">
+            <label for = "timeend">End Time:</label>
+            <input type = "time" id = "timeend">    
+        </div>
+        <br style="clear:both;">
+
+    </section>
+
+    <section>
+    <br>
+    <div style = "float:left; margin-right:40px;">
+        <label for = "location">Location:</label>
+        <input type = "text" id = "location">    
+    </div>
+
+    <div style = "float:left;margin-right:-160px">
+        <label for = "cost">Cost:</label>
+        <input type = "number" id = "cost">    
+    </div>
+
+    <div style = "float:left; margin-right:30px;">
+        <label for = "volunteers">Volunteers Needed:</label>
+        <input type = "number" id = "volunteers">    
+    </div>
+    <br style="clear:both;">
+    </section>    
+
+    <br>
+
+    <section>
+    <div>
+        <label for = "eventdesc">Event Description:</label>
+        <textarea id="eventdesc" name="eventdesc" rows="4" cols="50">
+        </textarea>
+    </div>
+    </section>
+    </form>
+    
+    </body>
 </html>
