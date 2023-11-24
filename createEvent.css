@@ -64,7 +64,7 @@ input[type=submit]{
     width: 300px;
     text-align: center;
     position: relative;
-    border-radius: 12px;
+    border-radius: 50px;
     left: 550px;
 }
 input[type=submit]:hover{
