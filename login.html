@@ -6,8 +6,9 @@
     <title>Login/Sign up</title>
     <link rel="stylesheet" href="design.css" type="text/css">
     <link rel="stylesheet" href="design.css" type="text/css">
-    <link rel="stylesheet" href="CSS/login.css" type="text/css">
+    <link rel="stylesheet" href="./asset/CSS/login.css" type="text/css">
     <script src="https://kit.fontawesome.com/8aaed488b1.js" crossorigin="anonymous"></script> 
+    <link rel="script" href="./asset/java/script.js">
 
 
 <body>
@@ -24,9 +25,9 @@
     <h1 class="welcome_head">Welcome to the Volunteer Management Log in and Sign up System</h1>
     <div class="container">
         <div class="form-box">
-            <h1>Sign Up</h1>
+            <h1 id="title">Sign Up</h1>
             <form action="">
-                <div class="input-group">
+                <div class="input-group" id="nameField">
                     <div class="input-field">
                         <i class="fa-solid fa-user"></i>
                         <input type="text" placeholder="Name">
@@ -43,6 +44,11 @@
                         <i class="fa-solid fa-lock"></i>
                         <input type="Password" placeholder="Password">
                     </div>
+                    <p>Lost Password <a href="#"> Click Here ! </a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="signupBtn">Sign up</button>
+                    <button type="button" class="disable" id="signinbtn">Sign in</button>
                 </div>
             </form>
         </div>
@@ -52,7 +58,7 @@
     </div>
 
     
-
+    <script src="./asset/java/script.js"></script>
 </body>
 
 
