@@ -11,7 +11,7 @@ body{
 }
 /* Style of the links in the bar */
 .topnav a{
-    float: left;
+    float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 20px 16px;
