@@ -6,12 +6,13 @@
         <link rel = "stylesheet" href="design.css" type = "text/css">
    
     <div class ='topnav'>
-        <hi> Sacramento State </hi>
-        <font size = "+2"> <hi> <br> Career Center </hi> </font>
+        <a href="https://www.csus.edu/student-life/career-center/">   
+            <img src = "images/SacramentoStateLogo.png" alt="Sacramento State Logo" width="54"  height="54" /> </a>
         
        
         <a href="./aboutUs.html">About Us</a>
         <a href="./profile.html">My Profile</a>
+        <a href="./calendar.html">Calender</a>
         <a href="./login.html">Log in/Sign up</a>
         <a class = "active" href = "./home">Home</a>
     </div>
