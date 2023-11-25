@@ -1,205 +1,63 @@
-.homepage {
-  background-color: #c4b681;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.homepage .div {
-  background-color: #c4b681;
-  width: 1280px;
-  height: 832px;
-  position: relative;
-}
-
-.homepage .text-wrapper {
-  position: absolute;
-  width: 869px;
-  top: 218px;
-  left: 206px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 800;
-  color: #004e38;
-  font-size: 35px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .overlap {
-  position: absolute;
-  width: 1280px;
-  height: 108px;
-  top: 82px;
-  left: 0;
-  background-color: #004e38;
-}
-
-.homepage .logo {
-  position: absolute;
-  width: 115px;
-  height: 107px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-.homepage .text-wrapper-2 {
-  position: absolute;
-  width: 73px;
-  top: 37px;
-  left: 601px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .text-wrapper-3 {
-  position: absolute;
-  width: 139px;
-  top: 37px;
-  left: 1120px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .text-wrapper-4 {
-  position: absolute;
-  width: 74px;
-  top: 37px;
-  left: 992px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .text-wrapper-5 {
-  position: absolute;
-  width: 210px;
-  top: 37px;
-  left: 728px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .overlap-group {
-  position: absolute;
-  width: 1203px;
-  height: 55px;
-  top: 14px;
-  left: 56px;
-  background-image: url(./img/rectangle-10.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .text-wrapper-6 {
-  position: absolute;
-  top: 14px;
-  left: 20px;
-  opacity: 0.5;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 300;
-  font-style: italic;
-  color: #000000;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .arrow {
-  position: absolute;
-  width: 22px;
-  height: 22px;
-  top: 30px;
-  left: 18px;
-}
-
-.homepage .calendar {
-  position: absolute;
-  width: 678px;
-  height: 479px;
-  top: 303px;
-  left: 301px;
-  background-color: #004e38;
-}
-
-.homepage .overlap-2 {
-  position: relative;
+.box {
   width: 639px;
   height: 442px;
-  top: 19px;
-  left: 20px;
 }
 
-.homepage .overlap-wrapper {
-  position: absolute;
+.box .calendar {
+  position: fixed;
   width: 639px;
   height: 442px;
   top: 0;
   left: 0;
 }
 
-.homepage .overlap-3 {
+.box .overlap {
   position: relative;
   width: 641px;
   height: 442px;
 }
 
-.homepage .element {
+.box .element {
   width: 92px;
   top: 375px;
   left: 546px;
+  background-image: url(./img/rectangle-3.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  height: 67px;
+}
+
+.box .div {
+  width: 92px;
+  top: 375px;
+  left: 455px;
   background-image: url(./img/rectangle-3-41.svg);
   background-size: 100% 100%;
   position: absolute;
   height: 67px;
 }
 
-.homepage .element-2 {
+.box .element-2 {
   width: 92px;
   top: 375px;
-  left: 455px;
+  left: 364px;
   background-image: url(./img/rectangle-3-40.svg);
   background-size: 100% 100%;
   position: absolute;
   height: 67px;
 }
 
-.homepage .element-3 {
+.box .element-3 {
   width: 92px;
   top: 375px;
-  left: 364px;
+  left: 273px;
   background-image: url(./img/rectangle-3-39.svg);
   background-size: 100% 100%;
   position: absolute;
   height: 67px;
 }
 
-.homepage .element-4 {
-  width: 92px;
-  top: 375px;
-  left: 273px;
-  background-image: url(./img/rectangle-3-38.svg);
-  background-size: 100% 100%;
-  position: absolute;
-  height: 67px;
-}
-
-.homepage .overlap-group-wrapper {
+.box .overlap-group-wrapper {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -207,15 +65,15 @@
   left: 182px;
 }
 
-.homepage .div-wrapper {
+.box .overlap-group {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-37.svg);
+  background-image: url(./img/rectangle-3-38.svg);
   background-size: 100% 100%;
 }
 
-.homepage .text-wrapper-7 {
+.box .text-wrapper {
   width: 19px;
   position: absolute;
   height: 21px;
@@ -229,7 +87,7 @@
   line-height: normal;
 }
 
-.homepage .element-5 {
+.box .overlap-wrapper {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -237,7 +95,23 @@
   left: 91px;
 }
 
-.homepage .overlap-4 {
+.box .div-wrapper {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-37.svg);
+  background-size: 100% 100%;
+}
+
+.box .element-4 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 375px;
+  left: 0;
+}
+
+.box .overlap-2 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -245,15 +119,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-6 {
+.box .element-5 {
   position: absolute;
   width: 94px;
   height: 67px;
-  top: 375px;
-  left: 0;
+  top: 309px;
+  left: 546px;
 }
 
-.homepage .overlap-5 {
+.box .overlap-3 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -261,15 +135,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-7 {
+.box .element-6 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 309px;
-  left: 546px;
+  left: 455px;
 }
 
-.homepage .overlap-6 {
+.box .overlap-4 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -277,15 +151,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-8 {
+.box .element-7 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 309px;
-  left: 455px;
+  left: 364px;
 }
 
-.homepage .overlap-7 {
+.box .overlap-5 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -293,15 +167,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-9 {
+.box .element-8 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 309px;
-  left: 364px;
+  left: 273px;
 }
 
-.homepage .overlap-8 {
+.box .overlap-6 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -309,15 +183,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-10 {
+.box .element-9 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 309px;
-  left: 273px;
+  left: 182px;
 }
 
-.homepage .overlap-9 {
+.box .overlap-7 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -325,15 +199,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-11 {
+.box .element-10 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 309px;
-  left: 182px;
+  left: 91px;
 }
 
-.homepage .overlap-10 {
+.box .overlap-8 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -341,15 +215,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-12 {
+.box .element-11 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 309px;
-  left: 91px;
+  left: 0;
 }
 
-.homepage .overlap-11 {
+.box .overlap-9 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -357,15 +231,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-13 {
+.box .element-12 {
   position: absolute;
   width: 94px;
   height: 67px;
-  top: 309px;
-  left: 0;
+  top: 243px;
+  left: 546px;
 }
 
-.homepage .overlap-12 {
+.box .overlap-10 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -373,15 +247,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-14 {
+.box .element-13 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 243px;
-  left: 546px;
+  left: 455px;
 }
 
-.homepage .overlap-13 {
+.box .overlap-11 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -389,15 +263,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-15 {
+.box .element-14 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 243px;
-  left: 455px;
+  left: 364px;
 }
 
-.homepage .overlap-14 {
+.box .overlap-12 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -405,15 +279,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-16 {
+.box .element-15 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 243px;
-  left: 364px;
+  left: 273px;
 }
 
-.homepage .overlap-15 {
+.box .overlap-13 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -421,15 +295,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-17 {
+.box .element-16 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 243px;
-  left: 273px;
+  left: 182px;
 }
 
-.homepage .overlap-16 {
+.box .overlap-14 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -437,15 +311,15 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-18 {
+.box .element-17 {
   position: absolute;
   width: 94px;
   height: 67px;
   top: 243px;
-  left: 182px;
+  left: 91px;
 }
 
-.homepage .overlap-17 {
+.box .overlap-15 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -453,23 +327,7 @@
   background-size: 100% 100%;
 }
 
-.homepage .element-19 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 243px;
-  left: 91px;
-}
-
-.homepage .overlap-18 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-22.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-20 {
+.box .element-18 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -477,15 +335,15 @@
   left: 0;
 }
 
-.homepage .overlap-19 {
+.box .overlap-16 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-21.svg);
+  background-image: url(./img/rectangle-3-22.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-21 {
+.box .element-19 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -493,15 +351,15 @@
   left: 546px;
 }
 
-.homepage .overlap-20 {
+.box .overlap-17 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-20.svg);
+  background-image: url(./img/rectangle-3-21.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-22 {
+.box .element-20 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -509,15 +367,15 @@
   left: 455px;
 }
 
-.homepage .overlap-21 {
+.box .overlap-18 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-19.svg);
+  background-image: url(./img/rectangle-3-20.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-23 {
+.box .element-21 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -525,15 +383,15 @@
   left: 364px;
 }
 
-.homepage .overlap-22 {
+.box .overlap-19 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-18.svg);
+  background-image: url(./img/rectangle-3-19.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-24 {
+.box .element-22 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -541,15 +399,15 @@
   left: 273px;
 }
 
-.homepage .overlap-23 {
+.box .overlap-20 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-17.svg);
+  background-image: url(./img/rectangle-3-18.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-25 {
+.box .element-23 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -557,15 +415,15 @@
   left: 182px;
 }
 
-.homepage .overlap-24 {
+.box .overlap-21 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-16.svg);
+  background-image: url(./img/rectangle-3-17.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-26 {
+.box .element-24 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -573,15 +431,15 @@
   left: 91px;
 }
 
-.homepage .overlap-25 {
+.box .overlap-22 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-15.svg);
+  background-image: url(./img/rectangle-3-16.svg);
   background-size: 100% 100%;
 }
 
-.homepage .text-wrapper-8 {
+.box .text-wrapper-2 {
   width: 10px;
   position: absolute;
   height: 21px;
@@ -595,7 +453,7 @@
   line-height: normal;
 }
 
-.homepage .element-27 {
+.box .element-25 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -603,15 +461,15 @@
   left: 0;
 }
 
-.homepage .overlap-26 {
+.box .overlap-23 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-14.svg);
+  background-image: url(./img/rectangle-3-15.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-28 {
+.box .element-26 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -619,15 +477,15 @@
   left: 546px;
 }
 
-.homepage .overlap-27 {
+.box .overlap-24 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-13.svg);
+  background-image: url(./img/rectangle-3-14.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-29 {
+.box .element-27 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -635,15 +493,15 @@
   left: 455px;
 }
 
-.homepage .overlap-28 {
+.box .overlap-25 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-12.svg);
+  background-image: url(./img/rectangle-3-13.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-30 {
+.box .element-28 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -651,15 +509,15 @@
   left: 364px;
 }
 
-.homepage .overlap-29 {
+.box .overlap-26 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-11.svg);
+  background-image: url(./img/rectangle-3-12.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-31 {
+.box .element-29 {
   width: 94px;
   top: 111px;
   left: 273px;
@@ -667,15 +525,15 @@
   height: 67px;
 }
 
-.homepage .overlap-30 {
+.box .overlap-27 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-10.svg);
+  background-image: url(./img/rectangle-3-11.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-32 {
+.box .element-30 {
   width: 94px;
   top: 111px;
   left: 182px;
@@ -683,15 +541,15 @@
   height: 67px;
 }
 
-.homepage .overlap-31 {
+.box .overlap-28 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-9.svg);
+  background-image: url(./img/rectangle-3-10.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-33 {
+.box .element-31 {
   width: 94px;
   top: 111px;
   left: 91px;
@@ -699,15 +557,15 @@
   height: 67px;
 }
 
-.homepage .overlap-32 {
+.box .overlap-29 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-8.svg);
+  background-image: url(./img/rectangle-3-9.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-34 {
+.box .element-32 {
   width: 94px;
   top: 111px;
   left: 0;
@@ -715,15 +573,15 @@
   height: 67px;
 }
 
-.homepage .overlap-33 {
+.box .overlap-30 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-7.svg);
+  background-image: url(./img/rectangle-3-8.svg);
   background-size: 100% 100%;
 }
 
-.homepage .saturday {
+.box .saturday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -731,13 +589,13 @@
   left: 547px;
 }
 
-.homepage .overlap-34 {
+.box .overlap-31 {
   position: relative;
   width: 92px;
   height: 32px;
 }
 
-.homepage .rectangle {
+.box .rectangle {
   position: absolute;
   width: 91px;
   height: 32px;
@@ -745,7 +603,7 @@
   left: 0;
 }
 
-.homepage .text-wrapper-9 {
+.box .text-wrapper-3 {
   position: absolute;
   width: 92px;
   height: 15px;
@@ -760,7 +618,7 @@
   line-height: normal;
 }
 
-.homepage .friday {
+.box .friday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -768,15 +626,15 @@
   left: 456px;
 }
 
-.homepage .friday-wrapper {
+.box .friday-wrapper {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3-5.svg);
+  background-image: url(./img/rectangle-3-6.svg);
   background-size: 100% 100%;
 }
 
-.homepage .thursday {
+.box .thursday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -784,15 +642,15 @@
   left: 365px;
 }
 
-.homepage .thursday-wrapper {
+.box .thursday-wrapper {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3-4.svg);
+  background-image: url(./img/rectangle-3-5.svg);
   background-size: 100% 100%;
 }
 
-.homepage .wednesday {
+.box .wednesday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -800,15 +658,15 @@
   left: 274px;
 }
 
-.homepage .wednesday-wrapper {
+.box .wednesday-wrapper {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3-3.svg);
+  background-image: url(./img/rectangle-3-4.svg);
   background-size: 100% 100%;
 }
 
-.homepage .tuesday {
+.box .tuesday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -816,15 +674,15 @@
   left: 183px;
 }
 
-.homepage .overlap-35 {
+.box .overlap-32 {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3-2.svg);
+  background-image: url(./img/rectangle-3-3.svg);
   background-size: 100% 100%;
 }
 
-.homepage .monday {
+.box .monday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -832,15 +690,15 @@
   left: 91px;
 }
 
-.homepage .overlap-36 {
+.box .overlap-33 {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3-1.svg);
+  background-image: url(./img/rectangle-3-2.svg);
   background-size: 100% 100%;
 }
 
-.homepage .sunday {
+.box .sunday {
   width: 94px;
   height: 32px;
   top: 80px;
@@ -848,15 +706,15 @@
   left: 0;
 }
 
-.homepage .overlap-37 {
+.box .overlap-34 {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3.svg);
+  background-image: url(./img/rectangle-3-1.svg);
   background-size: 100% 100%;
 }
 
-.homepage .month-year {
+.box .month-year {
   position: absolute;
   width: 640px;
   height: 81px;
@@ -864,7 +722,7 @@
   left: 0;
 }
 
-.homepage .overlap-38 {
+.box .overlap-35 {
   position: relative;
   width: 638px;
   height: 81px;
@@ -872,7 +730,7 @@
   background-size: 100% 100%;
 }
 
-.homepage .text-wrapper-10 {
+.box .text-wrapper-4 {
   position: absolute;
   width: 636px;
   height: 53px;
@@ -883,33 +741,6 @@
   color: #004e38;
   font-size: 38.7px;
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .text-wrapper-11 {
-  position: absolute;
-  width: 91px;
-  height: 11px;
-  top: 200px;
-  left: 93px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 7px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .text-wrapper-12 {
-  position: absolute;
-  width: 92px;
-  top: 401px;
-  left: 3px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 7px;
   letter-spacing: 0;
   line-height: normal;
 }
