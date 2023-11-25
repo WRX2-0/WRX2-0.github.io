@@ -1,143 +1,10 @@
-.homepage {
-  background-color: #c4b681;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.homepage .div {
-  background-color: #c4b681;
-  width: 1280px;
-  height: 832px;
-  position: relative;
-}
-
-.homepage .text-wrapper {
-  position: absolute;
-  width: 869px;
-  top: 218px;
-  left: 206px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 800;
-  color: #004e38;
-  font-size: 35px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .overlap {
-  position: absolute;
-  width: 1280px;
-  height: 108px;
-  top: 82px;
-  left: 0;
-  background-color: #004e38;
-}
-
-.homepage .logo {
-  position: absolute;
-  width: 115px;
-  height: 107px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-.homepage .text-wrapper-2 {
-  position: absolute;
-  width: 73px;
-  top: 37px;
-  left: 601px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .text-wrapper-3 {
-  position: absolute;
-  width: 139px;
-  top: 37px;
-  left: 1120px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .text-wrapper-4 {
-  position: absolute;
-  width: 74px;
-  top: 37px;
-  left: 992px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .text-wrapper-5 {
-  position: absolute;
-  width: 210px;
-  top: 37px;
-  left: 728px;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .overlap-group {
-  position: absolute;
-  width: 1203px;
-  height: 55px;
-  top: 14px;
-  left: 56px;
-  background-image: url(./img/rectangle-10.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .text-wrapper-6 {
-  position: absolute;
-  top: 14px;
-  left: 20px;
-  opacity: 0.5;
-  font-family: "Open Sans", Helvetica;
-  font-weight: 300;
-  font-style: italic;
-  color: #000000;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage .arrow {
-  position: absolute;
-  width: 22px;
-  height: 22px;
-  top: 30px;
-  left: 18px;
-}
-
-.homepage .calendar {
-  position: absolute;
+.calendar {
   width: 678px;
   height: 479px;
-  top: 303px;
-  left: 301px;
   background-color: #004e38;
 }
 
-.homepage .overlap-2 {
+.calendar .overlap {
   position: relative;
   width: 639px;
   height: 442px;
@@ -145,7 +12,7 @@
   left: 20px;
 }
 
-.homepage .overlap-wrapper {
+.calendar .overlap-wrapper {
   position: absolute;
   width: 639px;
   height: 442px;
@@ -153,53 +20,53 @@
   left: 0;
 }
 
-.homepage .overlap-3 {
+.calendar .overlap-group {
   position: relative;
   width: 641px;
   height: 442px;
 }
 
-.homepage .element {
+.calendar .element {
   width: 92px;
   top: 375px;
   left: 546px;
-  background-image: url(./img/rectangle-3-41.svg);
+  background-image: url(./img/rectangle-3.svg);
   background-size: 100% 100%;
   position: absolute;
   height: 67px;
 }
 
-.homepage .element-2 {
+.calendar .div {
   width: 92px;
   top: 375px;
   left: 455px;
-  background-image: url(./img/rectangle-3-40.svg);
+  background-image: url(./img/rectangle-3-1.svg);
   background-size: 100% 100%;
   position: absolute;
   height: 67px;
 }
 
-.homepage .element-3 {
+.calendar .element-2 {
   width: 92px;
   top: 375px;
   left: 364px;
-  background-image: url(./img/rectangle-3-39.svg);
+  background-image: url(./img/rectangle-3-2.svg);
   background-size: 100% 100%;
   position: absolute;
   height: 67px;
 }
 
-.homepage .element-4 {
+.calendar .element-3 {
   width: 92px;
   top: 375px;
   left: 273px;
-  background-image: url(./img/rectangle-3-38.svg);
+  background-image: url(./img/rectangle-3-3.svg);
   background-size: 100% 100%;
   position: absolute;
   height: 67px;
 }
 
-.homepage .overlap-group-wrapper {
+.calendar .overlap-group-wrapper {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -207,15 +74,15 @@
   left: 182px;
 }
 
-.homepage .div-wrapper {
+.calendar .div-wrapper {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-37.svg);
+  background-image: url(./img/rectangle-3-4.svg);
   background-size: 100% 100%;
 }
 
-.homepage .text-wrapper-7 {
+.calendar .text-wrapper {
   width: 19px;
   position: absolute;
   height: 21px;
@@ -229,7 +96,7 @@
   line-height: normal;
 }
 
-.homepage .element-5 {
+.calendar .element-4 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -237,15 +104,15 @@
   left: 91px;
 }
 
-.homepage .overlap-4 {
+.calendar .overlap-2 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-36.svg);
+  background-image: url(./img/rectangle-3-5.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-6 {
+.calendar .element-5 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -253,15 +120,15 @@
   left: 0;
 }
 
-.homepage .overlap-5 {
+.calendar .overlap-3 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-35.svg);
+  background-image: url(./img/rectangle-3-6.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-7 {
+.calendar .element-6 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -269,15 +136,15 @@
   left: 546px;
 }
 
-.homepage .overlap-6 {
+.calendar .overlap-4 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-34.svg);
+  background-image: url(./img/rectangle-3-7.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-8 {
+.calendar .element-7 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -285,15 +152,15 @@
   left: 455px;
 }
 
-.homepage .overlap-7 {
+.calendar .overlap-5 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-33.svg);
+  background-image: url(./img/rectangle-3-8.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-9 {
+.calendar .element-8 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -301,15 +168,15 @@
   left: 364px;
 }
 
-.homepage .overlap-8 {
+.calendar .overlap-6 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-32.svg);
+  background-image: url(./img/rectangle-3-9.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-10 {
+.calendar .element-9 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -317,15 +184,15 @@
   left: 273px;
 }
 
-.homepage .overlap-9 {
+.calendar .overlap-7 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-31.svg);
+  background-image: url(./img/rectangle-3-10.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-11 {
+.calendar .element-10 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -333,15 +200,15 @@
   left: 182px;
 }
 
-.homepage .overlap-10 {
+.calendar .overlap-8 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-30.svg);
+  background-image: url(./img/rectangle-3-11.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-12 {
+.calendar .element-11 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -349,15 +216,15 @@
   left: 91px;
 }
 
-.homepage .overlap-11 {
+.calendar .overlap-9 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-29.svg);
+  background-image: url(./img/rectangle-3-12.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-13 {
+.calendar .element-12 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -365,15 +232,15 @@
   left: 0;
 }
 
-.homepage .overlap-12 {
+.calendar .overlap-10 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-28.svg);
+  background-image: url(./img/rectangle-3-13.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-14 {
+.calendar .element-13 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -381,15 +248,15 @@
   left: 546px;
 }
 
-.homepage .overlap-13 {
+.calendar .overlap-11 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-27.svg);
+  background-image: url(./img/rectangle-3-14.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-15 {
+.calendar .element-14 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -397,183 +264,7 @@
   left: 455px;
 }
 
-.homepage .overlap-14 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-26.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-16 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 243px;
-  left: 364px;
-}
-
-.homepage .overlap-15 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-25.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-17 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 243px;
-  left: 273px;
-}
-
-.homepage .overlap-16 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-24.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-18 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 243px;
-  left: 182px;
-}
-
-.homepage .overlap-17 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-23.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-19 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 243px;
-  left: 91px;
-}
-
-.homepage .overlap-18 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-22.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-20 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 243px;
-  left: 0;
-}
-
-.homepage .overlap-19 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-21.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-21 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 177px;
-  left: 546px;
-}
-
-.homepage .overlap-20 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-20.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-22 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 177px;
-  left: 455px;
-}
-
-.homepage .overlap-21 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-19.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-23 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 177px;
-  left: 364px;
-}
-
-.homepage .overlap-22 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-18.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-24 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 177px;
-  left: 273px;
-}
-
-.homepage .overlap-23 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-17.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-25 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 177px;
-  left: 182px;
-}
-
-.homepage .overlap-24 {
-  position: relative;
-  width: 92px;
-  height: 67px;
-  background-image: url(./img/rectangle-3-16.svg);
-  background-size: 100% 100%;
-}
-
-.homepage .element-26 {
-  position: absolute;
-  width: 94px;
-  height: 67px;
-  top: 177px;
-  left: 91px;
-}
-
-.homepage .overlap-25 {
+.calendar .overlap-12 {
   position: relative;
   width: 92px;
   height: 67px;
@@ -581,7 +272,183 @@
   background-size: 100% 100%;
 }
 
-.homepage .text-wrapper-8 {
+.calendar .element-15 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 243px;
+  left: 364px;
+}
+
+.calendar .overlap-13 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-16.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .element-16 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 243px;
+  left: 273px;
+}
+
+.calendar .overlap-14 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-17.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .element-17 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 243px;
+  left: 182px;
+}
+
+.calendar .overlap-15 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-18.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .element-18 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 243px;
+  left: 91px;
+}
+
+.calendar .overlap-16 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-19.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .element-19 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 243px;
+  left: 0;
+}
+
+.calendar .overlap-17 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-20.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .element-20 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 177px;
+  left: 546px;
+}
+
+.calendar .overlap-18 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-21.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .element-21 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 177px;
+  left: 455px;
+}
+
+.calendar .overlap-19 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-22.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .element-22 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 177px;
+  left: 364px;
+}
+
+.calendar .overlap-20 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-23.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .element-23 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 177px;
+  left: 273px;
+}
+
+.calendar .overlap-21 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-24.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .element-24 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 177px;
+  left: 182px;
+}
+
+.calendar .overlap-22 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-25.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .element-25 {
+  position: absolute;
+  width: 94px;
+  height: 67px;
+  top: 177px;
+  left: 91px;
+}
+
+.calendar .overlap-23 {
+  position: relative;
+  width: 92px;
+  height: 67px;
+  background-image: url(./img/rectangle-3-26.svg);
+  background-size: 100% 100%;
+}
+
+.calendar .text-wrapper-2 {
   width: 10px;
   position: absolute;
   height: 21px;
@@ -595,7 +462,7 @@
   line-height: normal;
 }
 
-.homepage .element-27 {
+.calendar .element-26 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -603,15 +470,15 @@
   left: 0;
 }
 
-.homepage .overlap-26 {
+.calendar .overlap-24 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-14.svg);
+  background-image: url(./img/rectangle-3-27.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-28 {
+.calendar .element-27 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -619,15 +486,15 @@
   left: 546px;
 }
 
-.homepage .overlap-27 {
+.calendar .overlap-25 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-13.svg);
+  background-image: url(./img/rectangle-3-28.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-29 {
+.calendar .element-28 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -635,15 +502,15 @@
   left: 455px;
 }
 
-.homepage .overlap-28 {
+.calendar .overlap-26 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-12.svg);
+  background-image: url(./img/rectangle-3-29.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-30 {
+.calendar .element-29 {
   position: absolute;
   width: 94px;
   height: 67px;
@@ -651,15 +518,15 @@
   left: 364px;
 }
 
-.homepage .overlap-29 {
+.calendar .overlap-27 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-11.svg);
+  background-image: url(./img/rectangle-3-30.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-31 {
+.calendar .element-30 {
   width: 94px;
   top: 111px;
   left: 273px;
@@ -667,15 +534,15 @@
   height: 67px;
 }
 
-.homepage .overlap-30 {
+.calendar .overlap-28 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-10.svg);
+  background-image: url(./img/rectangle-3-31.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-32 {
+.calendar .element-31 {
   width: 94px;
   top: 111px;
   left: 182px;
@@ -683,15 +550,15 @@
   height: 67px;
 }
 
-.homepage .overlap-31 {
+.calendar .overlap-29 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-9.svg);
+  background-image: url(./img/rectangle-3-32.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-33 {
+.calendar .element-32 {
   width: 94px;
   top: 111px;
   left: 91px;
@@ -699,15 +566,15 @@
   height: 67px;
 }
 
-.homepage .overlap-32 {
+.calendar .overlap-30 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-8.svg);
+  background-image: url(./img/rectangle-3-33.svg);
   background-size: 100% 100%;
 }
 
-.homepage .element-34 {
+.calendar .element-33 {
   width: 94px;
   top: 111px;
   left: 0;
@@ -715,15 +582,15 @@
   height: 67px;
 }
 
-.homepage .overlap-33 {
+.calendar .overlap-31 {
   position: relative;
   width: 92px;
   height: 67px;
-  background-image: url(./img/rectangle-3-7.svg);
+  background-image: url(./img/rectangle-3-34.svg);
   background-size: 100% 100%;
 }
 
-.homepage .saturday {
+.calendar .saturday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -731,13 +598,13 @@
   left: 547px;
 }
 
-.homepage .overlap-34 {
+.calendar .overlap-32 {
   position: relative;
   width: 92px;
   height: 32px;
 }
 
-.homepage .rectangle {
+.calendar .rectangle {
   position: absolute;
   width: 91px;
   height: 32px;
@@ -745,7 +612,7 @@
   left: 0;
 }
 
-.homepage .text-wrapper-9 {
+.calendar .text-wrapper-3 {
   position: absolute;
   width: 92px;
   height: 15px;
@@ -760,7 +627,7 @@
   line-height: normal;
 }
 
-.homepage .friday {
+.calendar .friday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -768,15 +635,15 @@
   left: 456px;
 }
 
-.homepage .friday-wrapper {
+.calendar .friday-wrapper {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3-5.svg);
+  background-image: url(./img/rectangle-3-36.svg);
   background-size: 100% 100%;
 }
 
-.homepage .thursday {
+.calendar .thursday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -784,15 +651,15 @@
   left: 365px;
 }
 
-.homepage .thursday-wrapper {
+.calendar .thursday-wrapper {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3-4.svg);
+  background-image: url(./img/rectangle-3-37.svg);
   background-size: 100% 100%;
 }
 
-.homepage .wednesday {
+.calendar .wednesday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -800,15 +667,15 @@
   left: 274px;
 }
 
-.homepage .wednesday-wrapper {
+.calendar .wednesday-wrapper {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3-3.svg);
+  background-image: url(./img/rectangle-3-38.svg);
   background-size: 100% 100%;
 }
 
-.homepage .tuesday {
+.calendar .tuesday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -816,15 +683,15 @@
   left: 183px;
 }
 
-.homepage .overlap-35 {
+.calendar .overlap-33 {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3-2.svg);
+  background-image: url(./img/rectangle-3-39.svg);
   background-size: 100% 100%;
 }
 
-.homepage .monday {
+.calendar .monday {
   position: absolute;
   width: 94px;
   height: 32px;
@@ -832,15 +699,15 @@
   left: 91px;
 }
 
-.homepage .overlap-36 {
+.calendar .overlap-34 {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3-1.svg);
+  background-image: url(./img/rectangle-3-40.svg);
   background-size: 100% 100%;
 }
 
-.homepage .sunday {
+.calendar .sunday {
   width: 94px;
   height: 32px;
   top: 80px;
@@ -848,15 +715,15 @@
   left: 0;
 }
 
-.homepage .overlap-37 {
+.calendar .overlap-35 {
   position: relative;
   width: 92px;
   height: 32px;
-  background-image: url(./img/rectangle-3.svg);
+  background-image: url(./img/rectangle-3-41.svg);
   background-size: 100% 100%;
 }
 
-.homepage .month-year {
+.calendar .month-year {
   position: absolute;
   width: 640px;
   height: 81px;
@@ -864,7 +731,7 @@
   left: 0;
 }
 
-.homepage .overlap-38 {
+.calendar .overlap-36 {
   position: relative;
   width: 638px;
   height: 81px;
@@ -872,7 +739,7 @@
   background-size: 100% 100%;
 }
 
-.homepage .text-wrapper-10 {
+.calendar .text-wrapper-4 {
   position: absolute;
   width: 636px;
   height: 53px;
@@ -887,7 +754,7 @@
   line-height: normal;
 }
 
-.homepage .text-wrapper-11 {
+.calendar .text-wrapper-5 {
   position: absolute;
   width: 91px;
   height: 11px;
@@ -901,7 +768,7 @@
   line-height: normal;
 }
 
-.homepage .text-wrapper-12 {
+.calendar .text-wrapper-6 {
   position: absolute;
   width: 92px;
   top: 401px;
