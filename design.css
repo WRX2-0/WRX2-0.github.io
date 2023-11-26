@@ -9,6 +9,9 @@ body{
     background-color: #004E38;
     overflow: hidden;
 }
+.topnav img {
+    float:left;
+}
 /* Style of the links in the bar */
 .topnav a{
     float: right;
@@ -16,7 +19,7 @@ body{
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
 }
 /* changes colors of links while hovering */
 .topnav a:hover {
