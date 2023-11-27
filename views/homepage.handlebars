@@ -1,0 +1,27 @@
+<ol class="container">
+  {{#each posts}}
+  <li>
+    <section class="post">
+
+      <img id="bio-image" src="/images/placeholders.png" alt="Your Name" />
+
+      <p> Title: {{title}}</p>
+      <P> Details : {{details}}</P>
+      <P> Location:</P>
+      <p> Date: </p>
+      <button> Register </button>
+      {{!-- <div id="post-title">
+        <a href="{{post_url}}" target="_blank">{{title}}</a>
+        <span>({{post_url}})</span>
+      </div> --}}
+      <div class="meta">
+        
+         {{!-- {{vote_count}} point(s) by {{user.username}} on dskjafghasd --}}
+        {{!-- {{created_at}} --}}
+        |
+        <a href="/post/{{id}}">{{comments.length}} comment(s)</a>
+      </div>
+    </section>
+  </li>
+  {{/each}}
+</ol>

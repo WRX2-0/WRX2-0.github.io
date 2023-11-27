@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sac State Volunteer system</title>
+  {{!--
+  <link rel="stylesheet" href="/stylesheets/style.css"> --}}
+  {{!--
+  <link rel="stylesheet" href="/stylesheets/normaliz.css" type="text/css"> --}}
+  <link rel="stylesheet" href="/stylesheets/design.css" type="text/css">
+  {{!--
+  <link rel="stylesheet" href="/stylesheets/listGlobals.css" /> --}}
+  {{!--
+  <link rel="stylesheet" href="/stylesheets/listStyleguide.css" /> --}}
+
+  {{!--
+  <link rel="stylesheet" href="/stylesheets/listStyle.css" /> --}}
+
+
+  <link rel="stylesheet" href="/stylesheets/login.css" />
+  <script src="https://kit.fontawesome.com/8aaed488b1.js" crossorigin="anonymous"></script> --}}
+</head>
+
+
+
+{{!-- <nav>
+  {{#if loggedIn}}
+  <a href="/dashboard">dashboard</a>
+  <button id="logout" class="btn-no-style">logout</button>
+  {{else}}
+  <a href="/login">login</a>
+  {{/if}}
+</nav> --}}
+
+
+<body>
+
+  <header class="header">
+    <div class='topnav'>
+      <a class="active" href="./">Home</a>
+     {{#if loggedIn}}
+        <a href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}}
+      <a href="./profile.html">My Profile</a>
+      <a href="./aboutUs.html">About Us</a>
+      <a href="./calendar.html">Calender</a>
+      <a class="logo" href="https://www.csus.edu/student-life/career-center/">
+        <img src="/images/SacramentoStateLogo.png" class="Sacramento State Logo" width="54" height="54" />
+      </a>
+    </div>
+  </header>
+
+  <main>
+    {{{ body }}}
+  </main>
+
+
+  <footer>
+    Thanks for visiting!
+  </footer>
+
+
+ {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>
