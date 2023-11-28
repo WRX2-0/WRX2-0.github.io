@@ -1,6 +1,3 @@
 [submodule "WRXBackend"]
 	path = WRXBackend
 	url = https://github.com/SergioRodriguez33/WRXBackend.git
-[submodule "EventBackend"]
-	path = EventBackend
-	url = https://github.com/SergioRodriguez33/EventBackend.git
