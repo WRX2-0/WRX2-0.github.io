@@ -2,26 +2,31 @@
   {{#each posts}}
   <li>
     <section class="post">
+      <div class="image">
+        <img id="bio-image" src="/images/placeholders.png" alt="Your Name" />
+      </div>
 
-      <img id="bio-image" src="/images/placeholders.png" alt="Your Name" />
+      <div class="notes">
+        <p> Title: {{title}}</p>
+        <P> Details : {{details}}</P>
+        <P> Location:</P>
+        <p> Date: </p>
+        <button> Register </button>
 
-      <p> Title: {{title}}</p>
-      <P> Details : {{details}}</P>
-      <P> Location:</P>
-      <p> Date: </p>
-      <button> Register </button>
+      </div>
+       </section>
+
       {{!-- <div id="post-title">
         <a href="{{post_url}}" target="_blank">{{title}}</a>
         <span>({{post_url}})</span>
       </div> --}}
-      <div class="meta">
-        
-         {{!-- {{vote_count}} point(s) by {{user.username}} on dskjafghasd --}}
+      {{!-- <div class="meta"> --}}
+
+        {{!-- {{vote_count}} point(s) by {{user.username}} on dskjafghasd --}}
         {{!-- {{created_at}} --}}
-        |
-        <a href="/post/{{id}}">{{comments.length}} comment(s)</a>
-      </div>
-    </section>
+        {{!-- <a href="/post/{{id}}">{{comments.length}} comment(s)</a> --}}
+      {{!-- </div> --}}
+   
   </li>
   {{/each}}
 </ol>

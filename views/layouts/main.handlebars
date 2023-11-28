@@ -20,7 +20,7 @@
 
 
   <link rel="stylesheet" href="/stylesheets/login.css" />
-  <script src="https://kit.fontawesome.com/8aaed488b1.js" crossorigin="anonymous"></script> --}}
+  <script src="https://kit.fontawesome.com/8aaed488b1.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -39,15 +39,15 @@
 
   <header class="header">
     <div class='topnav'>
-      <a class="active" href="./">Home</a>
+      <a class="active" href="/">Home</a>
      {{#if loggedIn}}
         <a href="/dashboard">dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
+        <a href="/" id="logout">logout</button>
         {{else}}
         <a href="/login">login</a>
         {{/if}}
-      <a href="./profile.html">My Profile</a>
-      <a href="./aboutUs.html">About Us</a>
+      {{!-- <a href="./profile.html">My Profile</a> --}}
+      <a href="./aboutUs">About Us</a>
       <a href="./calendar.html">Calender</a>
       <a class="logo" href="https://www.csus.edu/student-life/career-center/">
         <img src="/images/SacramentoStateLogo.png" class="Sacramento State Logo" width="54" height="54" />
@@ -60,9 +60,15 @@
   </main>
 
 
-  <footer>
-    Thanks for visiting!
-  </footer>
+<footer>
+  <div class="rounded-social-buttons">
+                    <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+</footer>
 
 
  {{#if loggedIn}}

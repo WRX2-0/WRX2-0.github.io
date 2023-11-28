@@ -5,13 +5,14 @@ let title = document.getElementById("title");
 
 
 signinbtn.onclick = async function() {
-
-  nameField.style.maxHeight = "0"; 
+  nameField.style.display = "none"; 
   title.innerHTML = "Sign In"; 
+
   signupBtn.classList.add("disable");
   signinbtn.classList.remove("disable"); 
 
-  const email = document.querySelector('#email-login').value.trim();
+
+  const email = document.querySelector('#email-signup').value.trim();
   const password = document.querySelector('#password-login').value.trim();
 
   if (email && password) {
@@ -32,8 +33,9 @@ signinbtn.onclick = async function() {
   }
 }
 
-signupBtn.onclick = async function() {
 
+signupBtn.onclick = async function() {
+  
     nameField.style.maxHeight = "60px"; 
     title.innerHTML = "Sign up"; 
     signupBtn.classList.remove("disable");
@@ -63,6 +65,6 @@ signupBtn.onclick = async function() {
     }
 }
 
-document.querySelector('.login-form').addEventListener('submit', loginFormHandler);
+signinbtn.addEventListener('submit', loginFormHandler);
 
 document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
