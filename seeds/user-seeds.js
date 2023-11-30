@@ -48,8 +48,8 @@ const userdata = [
     password: 'password123'
   },
   {
-    username: 'ahmad',
-    email: 'ahmad@test.com',
+    username: 'jmacarthur9',
+    email: 'bsteen9@epa.gov',
     password: 'password123'
   }
 ];

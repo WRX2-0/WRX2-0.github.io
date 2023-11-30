@@ -65,13 +65,13 @@
     overflow: hidden;
 }
 
-input {
+.input-group input {
     width: 100%;
     background: white;
     border: 0;
     outline: 0;
     padding: 18px 15px;
-}
+} 
 
 .input-field i {
     font-size: 25px;
