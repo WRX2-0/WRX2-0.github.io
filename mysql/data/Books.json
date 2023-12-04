@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "IT major student needed",
+      "date": "1/5/2024",
+      "location": "Sac State Career Center ",
+      "description": "Public libraries in California seek to engage the talents, skills and commitment of volunteers to serve the communities' information and literacy needs. Libraries offer a variety of skilled volunteer opportunities to make a meaningful contribution to library programs, operations, fundraising events and other community engagement functions. Skilled volunteers have opportunities to lead projects, work with teams of staff and volunteers, learn new skills, and have fun.\n"
+    },
+    {
+      "id": "2",
+      "title": "Art Major",
+      "date": "1/1/2024",
+      "location": "Central Library 828 I Street Sacramento, CA 95814  United States",
+      "description": "such as write an email message, help a child with homework, get a better job, or get a driver license. Annually, we help about 250-350 learners improve their skills and reach their goals with the help of over 200 volunteer tutors who provide 15,000-20,000 instructional hours. Reading-writing and/or English language instructional materials are provided to assist the learner with skill development, but these should be complemented by additional real-life materials, resources, and other practice activities to help the learner achieve their personal goals. Tutors are not expected to stick to a set curriculum or timeline but instead are encouraged to be creative and learn what works best for their learner, and what motivates their learner.\n"
+    },
+    {
+      "id": "3",
+      "title": "ALL THINGS PRETTY INC",
+      "date": "1/8/2024",
+      "location": "Central Library 828 I Street Sacramento, CA 95814  United States",
+      "description": "Our vision is to establish a supportive, secure, loving community and environment through mentorship. Our compassionate community leaders and staff promote vital services, tools, resources, and techniques that encourages positive change and growth ac ademically."
+    }
+  ]
+}

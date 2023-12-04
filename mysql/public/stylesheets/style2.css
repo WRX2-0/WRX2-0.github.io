@@ -1,0 +1,15 @@
+.post-list {
+  padding: 20px 20px 20px;
+  align-items: center;
+}
+
+.post { 
+  padding: 20px 20px 20px;
+  left: 50%;
+}
+
+
+#post-title a {
+  font-size: 30px;
+
+}
